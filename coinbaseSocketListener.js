@@ -4,7 +4,7 @@
  * and send the ticks to all clients, that are connected to the crypto-Server.
  *
  */
-const cryptoWebSocketServer = require('./cryptoServer');
+const cryptoWebSocketServer = require('.');
 const CoinbasePro = require('coinbase-pro');
 
 const websocket = new CoinbasePro.WebsocketClient(['BTC-USD', 'ETH-USD']);
