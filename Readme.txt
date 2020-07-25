@@ -8,5 +8,5 @@ Server-Re-Deploy
         heroku login
         git add .
         git commit -m 'another commit'
-        git push heroku master
+        git push origin master
         Unter https://jorroch-consulting.herokuapp.com/ prüfen
